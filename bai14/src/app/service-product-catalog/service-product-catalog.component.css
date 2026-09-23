@@ -1,0 +1,10 @@
+table {
+  max-width: 420px;
+  width: 100%;
+}
+td {
+  padding: 4px 6px;
+}
+img {
+  width: 45px;
+}

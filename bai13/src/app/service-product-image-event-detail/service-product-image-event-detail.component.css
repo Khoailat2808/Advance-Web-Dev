@@ -1,0 +1,14 @@
+.detail {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 6px 8px;
+}
+td {
+  padding: 2px 16px 2px 0;
+}
+td[colspan] {
+  text-align: center;
+}
+img {
+  width: 150px;
+}
