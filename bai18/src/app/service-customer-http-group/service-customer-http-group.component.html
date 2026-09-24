@@ -1,0 +1,36 @@
+<p>service-customer-http-group works!</p>
+<p class="error">{{errMessage()}}</p>
+<table border="1">
+  <tr>
+    <td>Ma Loai KH</td>
+    <td>Ten Loai KH</td>
+  </tr>
+  <tbody *ngFor="let g of groups()">
+    <tr>
+      <td>{{g.CustomerTypeId}}</td>
+      <td>{{g.CustomterTypeName}}</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <table border="1">
+          <tr>
+            <td>Ma KH</td>
+            <td>Ten KH</td>
+            <td>Email</td>
+            <td>Tuoi</td>
+            <td>Hinh</td>
+          </tr>
+          <tr *ngFor="let c of g.Customers">
+            <td>{{c.Id}}</td>
+            <td>{{c.Name}}</td>
+            <td>{{c.Email}}</td>
+            <td>{{c.Age}}</td>
+            <td>
+              <img [src]="c.Image" [alt]="c.Name">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

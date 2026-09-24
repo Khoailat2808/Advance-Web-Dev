@@ -6,6 +6,7 @@ Bài tập môn **Phát triển web kinh doanh nâng cao** (Angular 21).
 |-----|----------|---------|
 | 13 | Service + hình ảnh sản phẩm + sự kiện click xem chi tiết (route có tham số `:id`) | [`bai13`](bai13) |
 | 14 | Service danh mục sản phẩm (Catalog) – hiển thị sản phẩm theo từng loại | [`bai14`](bai14) |
+| 18 | Json Array Model – nhóm khách hàng đọc từ file JSON qua Http Service (có xử lý lỗi) | [`bai18`](bai18) |
 
 ## Yêu cầu
 
@@ -27,7 +28,7 @@ npm start          # hoặc: ng serve
 
 Mở trình duyệt tại <http://localhost:4200/>.
 
-Để chạy bài 14, làm tương tự với thư mục `bai14`. Nếu muốn chạy cả hai bài cùng lúc, dùng cổng khác cho bài thứ hai:
+Để chạy bài 14 hoặc bài 18, làm tương tự với thư mục `bai14` / `bai18`. Nếu muốn chạy cả hai bài cùng lúc, dùng cổng khác cho bài thứ hai:
 
 ```bash
 cd bai14
